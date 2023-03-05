@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwhpd0twrxbac"]
+
+[ext_resource type="PackedScene" uid="uid://dykgfdisae1k6" path="res://scenes/spin_croc.tscn" id="1_crgt6"]
+[ext_resource type="Script" path="res://source/hero_croc.gd" id="1_mb1ob"]
+[ext_resource type="Texture2D" uid="uid://bs4m42brj4xyb" path="res://assets/img/sword.png" id="2_sf5ne"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v4o5m"]
+size = Vector2(32, 5)
+
+[node name="HeroCroc" type="Node2D"]
+position = Vector2(528, 243)
+script = ExtResource("1_mb1ob")
+
+[node name="SpinCroc" parent="." instance=ExtResource("1_crgt6")]
+
+[node name="Sword" type="Sprite2D" parent="SpinCroc"]
+show_behind_parent = true
+position = Vector2(-29, 0)
+texture = ExtResource("2_sf5ne")
+
+[node name="Slice" type="Area2D" parent="SpinCroc/Sword"]
+scale = Vector2(1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="SpinCroc/Sword/Slice"]
+shape = SubResource("RectangleShape2D_v4o5m")

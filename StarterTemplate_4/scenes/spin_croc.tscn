@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dykgfdisae1k6"]
+
+[ext_resource type="Texture2D" uid="uid://dlfl1qorqna2t" path="res://assets/img/croc.png" id="1_hti04"]
+[ext_resource type="Script" path="res://source/SpinCroc.gd" id="2_ui00y"]
+
+[node name="SpinCroc" type="Sprite2D"]
+texture_filter = 1
+scale = Vector2(5, 5)
+texture = ExtResource("1_hti04")
+script = ExtResource("2_ui00y")

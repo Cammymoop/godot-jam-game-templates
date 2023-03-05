@@ -1,0 +1,306 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgbd5m2ew00id"]
+
+[ext_resource type="PackedScene" uid="uid://dykgfdisae1k6" path="res://scenes/spin_croc.tscn" id="1_yau6k"]
+
+[node name="MenuBG" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.223529, 0.694118, 0.576471, 1)
+
+[node name="SpinCroc" parent="." instance=ExtResource("1_yau6k")]
+
+[node name="SpinCroc2" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(990, 210)
+
+[node name="SpinCroc3" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(165, 449)
+
+[node name="SpinCroc20" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(734, 749)
+
+[node name="SpinCroc4" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(868, 54)
+
+[node name="SpinCroc5" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1307, 274)
+
+[node name="SpinCroc24" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1058, 828)
+
+[node name="SpinCroc25" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(133, 828)
+
+[node name="SpinCroc6" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1260, 727)
+
+[node name="SpinCroc7" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(629, 353)
+
+[node name="SpinCroc8" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(332, 696)
+
+[node name="SpinCroc9" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(262, 121)
+
+[node name="SpinCroc10" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(121, 281)
+reverse = true
+
+[node name="SpinCroc11" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(603, 66.0001)
+reverse = true
+
+[node name="SpinCroc22" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1386, 117)
+reverse = true
+
+[node name="SpinCroc23" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1367, 578)
+reverse = true
+
+[node name="SpinCroc80" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1514, 809)
+reverse = true
+
+[node name="SpinCroc12" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1153, 418)
+reverse = true
+
+[node name="SpinCroc13" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1094, -11)
+reverse = true
+
+[node name="SpinCroc14" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(449, -17)
+reverse = true
+
+[node name="SpinCroc15" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(938, 614)
+reverse = true
+
+[node name="SpinCroc21" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(-35.9999, 667)
+reverse = true
+
+[node name="SpinCroc16" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(431, 290)
+reverse = true
+
+[node name="SpinCroc17" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(916, 412)
+reverse = true
+
+[node name="SpinCroc26" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(177, 1041)
+
+[node name="SpinCroc27" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(733, 921)
+
+[node name="SpinCroc28" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1273, 1013)
+reverse = true
+
+[node name="SpinCroc29" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(443, 882)
+reverse = true
+
+[node name="SpinCroc30" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(884, 1046)
+reverse = true
+
+[node name="SpinCroc18" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(502, 555)
+reverse = true
+
+[node name="SpinCroc31" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1872, 837)
+
+[node name="SpinCroc32" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1767, 441)
+
+[node name="SpinCroc33" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1741, 154)
+reverse = true
+
+[node name="SpinCroc34" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1569, 378)
+reverse = true
+
+[node name="SpinCroc37" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1546, 6.10352e-05)
+reverse = true
+
+[node name="SpinCroc38" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(27, 1178)
+
+[node name="SpinCroc39" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1017, 1388)
+
+[node name="SpinCroc40" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(895, 1232)
+
+[node name="SpinCroc41" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1334, 1452)
+
+[node name="SpinCroc42" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(656, 1531)
+
+[node name="SpinCroc43" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(289, 1299)
+
+[node name="SpinCroc44" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(148, 1459)
+reverse = true
+
+[node name="SpinCroc45" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(630, 1244)
+reverse = true
+
+[node name="SpinCroc46" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1413, 1295)
+reverse = true
+
+[node name="SpinCroc47" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1180, 1596)
+reverse = true
+
+[node name="SpinCroc48" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1121, 1167)
+reverse = true
+
+[node name="SpinCroc49" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(476, 1161)
+reverse = true
+
+[node name="SpinCroc50" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(458, 1468)
+reverse = true
+
+[node name="SpinCroc51" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(943, 1590)
+reverse = true
+
+[node name="SpinCroc56" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2416, 276)
+
+[node name="SpinCroc57" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2160, 815)
+
+[node name="SpinCroc58" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2294, 120)
+
+[node name="SpinCroc59" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2484, 894)
+
+[node name="SpinCroc78" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1885, 1125)
+
+[node name="SpinCroc60" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2686, 793)
+
+[node name="SpinCroc61" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2055, 419)
+
+[node name="SpinCroc62" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2029, 132)
+reverse = true
+
+[node name="SpinCroc63" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2579, 484)
+reverse = true
+
+[node name="SpinCroc64" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2520, 55)
+reverse = true
+
+[node name="SpinCroc65" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2364, 680)
+reverse = true
+
+[node name="SpinCroc79" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1929, 653)
+reverse = true
+
+[node name="SpinCroc66" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2342, 478)
+reverse = true
+
+[node name="SpinCroc67" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2159, 987)
+
+[node name="SpinCroc68" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2591, 1076)
+reverse = true
+
+[node name="SpinCroc69" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2310, 1112)
+reverse = true
+
+[node name="SpinCroc70" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2443, 1454)
+
+[node name="SpinCroc71" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2321, 1298)
+
+[node name="SpinCroc72" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2760, 1518)
+
+[node name="SpinCroc73" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2082, 1597)
+
+[node name="SpinCroc74" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2056, 1310)
+reverse = true
+
+[node name="SpinCroc75" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2606, 1662)
+reverse = true
+
+[node name="SpinCroc76" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2547, 1233)
+reverse = true
+
+[node name="SpinCroc77" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(2369, 1656)
+reverse = true
+
+[node name="SpinCroc52" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1794, 1619)
+
+[node name="SpinCroc53" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1768, 1332)
+reverse = true
+
+[node name="SpinCroc54" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1596, 1556)
+reverse = true
+
+[node name="SpinCroc55" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1573, 1178)
+reverse = true
+
+[node name="SpinCroc35" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1581, 970)
+reverse = true
+
+[node name="SpinCroc36" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(1640, 643)
+reverse = true
+
+[node name="SpinCroc19" parent="." instance=ExtResource("1_yau6k")]
+position = Vector2(193, 583)
+scale = Vector2(3, 3)
+reverse = true
+spin_speed = 7.0

@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8uyi0114jwpl"]
+
+[ext_resource type="PackedScene" uid="uid://bwhpd0twrxbac" path="res://scenes/hero_croc.tscn" id="1_26k2h"]
+[ext_resource type="Script" path="res://source/game_scene.gd" id="1_237re"]
+[ext_resource type="PackedScene" uid="uid://3rfgan1ykw1s" path="res://scenes/bubble.tscn" id="2_teekk"]
+[ext_resource type="Script" path="res://source/Bubbles.gd" id="3_wlhxs"]
+
+[node name="GameScene" type="Node2D"]
+script = ExtResource("1_237re")
+
+[node name="BG" type="CanvasLayer" parent="."]
+layer = -2
+
+[node name="ColorRect" type="ColorRect" parent="BG"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.166379, 0.689026, 0.658508, 1)
+
+[node name="HeroCroc" parent="." instance=ExtResource("1_26k2h")]
+position = Vector2(600, 400)
+
+[node name="Bubbles" type="Node2D" parent="."]
+script = ExtResource("3_wlhxs")
+
+[node name="Bubble" parent="Bubbles" instance=ExtResource("2_teekk")]
+position = Vector2(63, 397)
+
+[node name="Bubble2" parent="Bubbles" instance=ExtResource("2_teekk")]
+position = Vector2(1138, 175)
+
+[node name="Bubble3" parent="Bubbles" instance=ExtResource("2_teekk")]
+position = Vector2(1007, 638)
